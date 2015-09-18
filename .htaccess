@@ -1,9 +1,3 @@
-<IfModule authz_core_module>
-	Require all denied
-</IfModule>
-<IfModule !authz_core_module>
-	Deny from all
-</IfModule>
 DirectoryIndex index.php index.html
 RewriteEngine on
 # Allow requests for valid file or folder names, or some that should be
